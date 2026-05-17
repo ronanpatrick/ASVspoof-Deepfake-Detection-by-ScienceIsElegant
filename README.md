@@ -28,7 +28,7 @@ Due to GitHub's strict file size limits, the ASVspoof 2019 LA dataset (`.flac` f
 
 You can view the final pipeline, EER results, and code execution directly in the browser:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([YOUR_COLAB_LINK_HERE](https://colab.research.google.com/drive/1OqG8uCGGpvqAWtSTIR8A-iR2ystlO6qE?usp=sharing))
 
 To run this code yourself:
 1. Open the Colab link above and save a copy to your own Drive.
