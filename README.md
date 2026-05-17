@@ -23,10 +23,17 @@ To evaluate the raw computational capacity of the architectures, all models were
 * **2D Architecture Performance:** In the fixed 100-epoch training setup, the **2D ResNet-18 (Baseline)** achieved the lowest overall Equal Error Rate at 11.2%. Introducing a 50% Dropout layer (Tweaked) resulted in a closely comparable EER of 11.6%.
 * **1D Architecture Performance:** For the raw waveform models, expanding the GRU capacity from 64 to 128 dimensions resulted in a performance improvement, dropping the EER from 26.8% (Baseline) to 23.2% (Tweaked).
 
-## Usage & Dataset Disclaimer
-Due to GitHub's strict file size limits, the ASVspoof 2019 LA dataset (.flac files) and the generated .npy feature arrays are not included in this repository. To run the provided Jupyter notebook locally:
-1. Download the LA dataset from the official [ASVspoof 2019 website](https://www.asvspoof.org/).
-2. Update the `BASE_DIR` paths in Phase 1 of the notebook to point to your local directories.
+## Usage & Code Access
+Due to GitHub's strict file size limits, the ASVspoof 2019 LA dataset (`.flac` files) and the generated `.npy` feature arrays are **not** included in this repository. 
+
+You can view the final pipeline, EER results, and code execution directly in the browser:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE)
+
+To run this code yourself:
+1. Open the Colab link above and save a copy to your own Drive.
+2. Download the LA dataset from the official [ASVspoof 2019 website](https://www.asvspoof.org/).
+3. Update the `BASE_DIR` paths in Phase 1 of the notebook to point to your local or Drive directories.
 
 ## Technologies Used
 * PyTorch
